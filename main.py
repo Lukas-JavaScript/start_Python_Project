@@ -8,6 +8,7 @@ lib = input("Wich librarys do you want to install?: ")
 
 os.mkdir(project_name)
 os.chdir(project_name)
+open("main.py", "w")
 
 # === Git vorbereiten ===
 git = (git_input == '' or git_input == 'y')
